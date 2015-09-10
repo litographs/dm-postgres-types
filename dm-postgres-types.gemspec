@@ -18,11 +18,11 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'dm-core', '~> 1.2.0'
-  gem.add_dependency 'dm-migrations', '~> 1.2.0'
-  gem.add_dependency 'dm-types', '~> 1.2.0'
-  gem.add_dependency 'dm-validations', '~> 1.2.0'
-  gem.add_dependency 'dm-postgres-adapter', '~> 1.2.0'
+  gem.add_dependency 'dm-core', '~> 1.3.0.beta'
+  gem.add_dependency 'dm-migrations', '~> 1.3.0.beta'
+  gem.add_dependency 'dm-types', '~> 1.3.0.beta'
+  gem.add_dependency 'dm-validations', '~> 1.3.0.beta'
+  gem.add_dependency 'dm-postgres-adapter', '~> 1.3.0.beta'
   gem.add_dependency 'oj'
 
   gem.add_development_dependency 'bundler'
