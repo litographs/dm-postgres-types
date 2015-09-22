@@ -7,6 +7,7 @@ module DataMapper
     class PgArray < Object
       def load(value)
         return [] if value.nil?
+        return value if value.kind_of?(Array)
         value.gsub!(/[{}]/,'')
         CSV.parse_line(value) || []
       end
